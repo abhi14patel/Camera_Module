@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="TITLE"
+            android:textAllCaps="true"
+            android:gravity="left|center"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="left|center"
+            style="@style/CustomWhiteFont" />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:padding="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Gallery-->
+            <LinearLayout
+                android:id="@+id/llGallery"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    app:srcCompat="@drawable/attach_gallery"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:id="@+id/tvGallery"
+                    android:text="@string/gallery"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    style="@style/CustomWhiteFont" />
+
+            </LinearLayout>
+
+            <!--CaptureImage-->
+            <LinearLayout
+                android:id="@+id/llCamera"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    app:srcCompat="@drawable/attach_camera"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:id="@+id/tvCamera"
+                    android:text="@string/camera"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    style="@style/CustomWhiteFont" />
+
+            </LinearLayout>
+
+            <!--Remove-->
+            <LinearLayout
+                android:id="@+id/llCancel"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    app:srcCompat="@drawable/img_remove"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:id="@+id/tvCancel"
+                    android:text="@string/remove"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    style="@style/CustomWhiteFont" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProfileLib</string>
+
+    <!--Bottom Sheet -->
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="document">Document</string>
+    <string name="remove">Remove</string>
+
+    <!--Capture Image-->
+    <string name="err_bitmap_received_is_null">Bitmap received from camera is null</string>
+    <string name="err_unable_to_open_camera">Unable to open camera</string>
+
+    <!--Toast Message-->
+    <string name="allow_all_permissions">Please allow permissions for the app.</string>
+    <string name="please_give_permission">Please give permission</string>
+    <string name="cant_get_image">Cant get image</string>
+    <string name="cant_take_image">Cant take image</string>
+    <string name="select_picture">Select Picture</string>
+
+    <!--Crop Image-->
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+
+</resources>

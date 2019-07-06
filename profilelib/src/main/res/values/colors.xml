@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4366A1</color>
+    <color name="colorPrimaryDark">#213350</color>
+    <color name="colorAccent">#FF7996</color>
+
+    <!--Custom Colors-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite1">#E6E6E6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#CC101010</color>
+    <color name="colorGrey">#afafaf</color>
+    <color name="colorGrey1">#898686</color>
+    <color name="colorGrey2">#4c4c4c</color>
+    <color name="colorGrey3">#e4e4e4</color>
+    <color name="colorGrey4">#E7E7E7</color>
+    <color name="colorGrey5">#797575</color>
+    <color name="colorTransparent">#53979797</color>
+    <color name="colorMirror1">#a3000000</color>
+    <color name="colorMirror">#20ffffff</color>
+
+    <!--Bottom dialog color-->
+    <color name="flat_pressed">#66999999</color>
+
+    <!--Crop Screen Colors-->
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="divider">#333333</color>
+
+</resources>

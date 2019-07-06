@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4366A1</color>
+    <color name="colorPrimaryDark">#213350</color>
+    <color name="colorAccent">#FF7996</color>
+
+    <!--Custom Colors-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite1">#E6E6E6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#CC101010</color>
+    <color name="colorGrey">#afafaf</color>
+    <color name="colorGrey1">#898686</color>
+    <color name="colorGrey2">#4c4c4c</color>
+    <color name="colorGrey3">#e4e4e4</color>
+    <color name="colorGrey4">#E7E7E7</color>
+    <color name="colorGrey5">#797575</color>
+    <color name="colorTransparent">#53979797</color>
+    <color name="colorMirror1">#a3000000</color>
+    <color name="colorMirror">#20ffffff</color>
+
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorBlue1">#0D47A1</color>
+    <color name="colorRed">#E42518</color>
+    <color name="colorRed1">#B71C1C</color>
+    <color name="colorGreen">#10c227</color>
+    <color name="colorGreen1">#1B5E20</color>
+    <color name="colorGreen2">#1d7121</color>
+    <color name="colorPink">#E91E63</color>
+    <color name="colorIndigo1">#303F9F</color>
+    <color name="colorCyan">#0097A7</color>
+    <color name="colorCyan1">#07464d</color>
+    <color name="colorYellow1">#FFC107</color>
+    <color name="shimmer_background">#dddddd</color>
+
+    <color name="black_transparent_20">#30c9c9c9</color>
+
+    <color name="cursorcolor">#FF7996</color>
+    <color name="floating_btn">#FF7996</color>
+    <color name="floating_txt">#0084e6</color>
+    <color name="bg_drawer">#191919</color>
+    <color name="status_bar">#2A4A5A</color>
+    <color name="tab_bar">#564a8d</color>
+    <color name="bg_color_tenant">#be000000</color>
+
+    <color name="color_pending">#c13c33</color>
+    <color name="color_inprogress">#105b9e</color>
+    <color name="color_hold">#737373</color>
+    <color name="color_fixed">#5fa158</color>
+    <color name="color_hint">#b8b8b8</color>
+    <color name="color_heading">#585858</color>
+    <color name="color_text">#343434</color>
+    <color name="color_bottom">#213350</color>
+    <color name="color_tabs">#ADC3E9</color>
+    <color name="color_tabs_text">#405D91</color>
+    <color name="color_success">#41D8B0</color>
+
+    <!--Bill status color-->
+    <color name="color_bill_due">#0097A7</color>
+    <color name="color_bill_paid">#1d7121</color>
+    <color name="color_bill_failed">#B71C1C</color>
+    <color name="color_bill_inprogress">#FFC107</color>
+    <color name="color_bill_overdue">#B71C1C</color>
+
+    <!--Feedback status color-->
+    <color name="color_pending_adapter">#c13c33</color>
+    <color name="color_inprogress_adapter">#105b9e</color>
+    <color name="color_hold_adapter">#737373</color>
+    <color name="color_complete_adapter">#5fa158</color>
+    <color name="color_out_of_sow_adapter">#33cd5f</color>
+
+    <!--Visitor status btn color-->
+    <color name="color_btn_accept">#1d7121</color>
+    <color name="color_btn_reject">#B71C1C</color>
+    <color name="color_btn_cancel">#B71C1C</color>
+    <color name="color_btn_share">#0D47A1</color>
+
+    <!--Sweet Dialog Button color-->
+    <color name="sweet_btn">#2345A1</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#B6B6B6</color>
+    <color name="gray_btn_bg_pressed_color">#979797</color>
+    <color name="error_stroke_color">#e92323</color>
+    <color name="success_stroke_color">#70d239</color>
+    <color name="trans_success_stroke_color">#ab96de6e</color>
+    <color name="warning_stroke_color">#e9944b</color>
+    <color name="text_see_more_less">#0D47A1</color>
+
+</resources>
